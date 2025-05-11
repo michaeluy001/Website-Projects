@@ -24,7 +24,7 @@ const Header = () => {
           </span>
           <span className="justify-items-center m-auto text-center">
             <img
-              src="assets/kapehan_logo.png"
+              src="/assets/kapehan_logo.png"
               alt="kapehan logo"
               className="size-full md:size-1/2"
             >
