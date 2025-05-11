@@ -5,7 +5,7 @@ const Button = ({ className = "", type = "primary", children, onClick }) => {
   };
 
   const baseStyle =
-    "w-full h-10 my-3 flex items-center justify-center rounded-lg ring-3 hover:scale-101 transition-transform cursor-pointer lg:w-70 lg:justify-center";
+    "w-full h-10 my-3 flex items-center justify-center rounded-lg ring-3 hover:scale-101 transition-transform cursor-pointer md:w-40 lg:w-50 lg:justify-center";
 
   return (
     <button

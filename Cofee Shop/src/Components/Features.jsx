@@ -37,10 +37,10 @@ const Features = () => {
       <div className="bg-stone-800 justify-items-center flex flex-col text-center ">
         <div className="w-full h-screen text-center mt-10  content-center">
           <motion.span
-            className="text-center text-stone-300 font-bold text-3xl italic md:text-5xl"
+            className="text-center text-stone-300 font-bold text-3xl italic md:text-5xl  px-10"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 1, duration: 2 }}
+            transition={{ delay: 0.8, duration: 2, type: "spring" }}
             
           >
             There are many reasons to fall in love with us...
