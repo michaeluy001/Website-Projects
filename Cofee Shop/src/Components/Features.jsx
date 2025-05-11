@@ -36,7 +36,7 @@ const Features = () => {
     <>
       <div className="bg-stone-800 justify-items-center flex flex-col text-center ">
         <div className="w-full h-screen text-center mt-10  content-center">
-          <motion.span
+          <motion.div
             className="text-center text-stone-300 font-bold text-3xl italic md:text-5xl  px-10"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -44,7 +44,7 @@ const Features = () => {
             
           >
             There are many reasons to fall in love with us...
-          </motion.span>
+          </motion.div>
         </div>
         <div className="w-full relative overflow-hidden flex flex-col p-auto justify-evenly mt-10 lg:w-full lg:flex-row space-x-2">
           {images.map((item, index) => (
