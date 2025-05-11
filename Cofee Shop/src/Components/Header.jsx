@@ -1,7 +1,6 @@
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoSearchOutline } from "react-icons/io5";
 import { useState } from "react";
-import { AnimatePresence } from "motion/react";
 import Drawer from "./Drawer";
 
 const Header = () => {
@@ -25,7 +24,7 @@ const Header = () => {
           </span>
           <span className="justify-items-center m-auto text-center">
             <img
-              src="src/assets/kapehan_logo.png"
+              src="assets/kapehan_logo.png"
               alt="kapehan logo"
               className="size-full md:size-1/2"
             >

@@ -8,19 +8,19 @@ const Features = () => {
   useEffect(() => {
     setImages([
       {
-        src: "src/assets/coffee.jpg",
+        src: "assets/coffee.jpg",
         alt: "coffee cup",
         desc: "Step into our cozy coffee haven, where every sip feels like a warm hug. Plush corners, soft lighting, and the aroma of freshly brewed coffee await you.",
         delay: 0.75
       },
       {
-        src: "src/assets/coffee_beans.jpg",
+        src: "assets/coffee_beans.jpg",
         alt: "coffee beans",
         desc: "Indulge in the rich flavors of our carefully selected, high-quality coffee beans. Freshly roasted to perfection, every bean tells a story of passion and dedication to the art of coffee-making.",
         delay: 1
       },
       {
-        src: "src/assets/cozy.jpg",
+        src: "assets/cozy.jpg",
         alt: "cozy coffee shop",
         desc: "Cozy up in our inviting coffee shop, where warm lighting and rich aromas envelop you in comfort. Savor every sip of our expertly crafted coffee, made with love and the finest beans.",
         delay: 1.5

@@ -6,13 +6,13 @@ import { PiTiktokLogoThin } from "react-icons/pi";
 const Socials = () => {
   return (
     <>
-        <div className="h-full bg-stone-300  flex flex-col text-center space-y-15 overflow-hidden justify-center text-stone-800" >
-            <span className="text-3xl my-15"> Visit our social accounts! </span>
-            <div className="flex flex-col space-y-15 items-center md:flex-row justify-center md:space-x-15 md:space-y-0">
-              <span className="text-7xl"><IoLogoInstagram /></span>
-              <span className="text-7xl"><FaFacebook /></span>
-              <span className="text-7xl"><RiTwitterXLine /></span>
-              <span className="text-7xl"><PiTiktokLogoThin /></span>
+        <div className="h-full bg-stone-300  flex flex-col text-center space-y-15 overflow-hidden justify-center" >
+            <span className="text-3xl my-10"> Visit our social accounts! </span>
+            <div className="flex flex-col space-y-9 items-center md:flex-row justify-center md:space-x-15 md:space-y-0">
+              <span className="text-5xl md:text-7xl"><IoLogoInstagram /></span>
+              <span className="text-5xl md:text-7xl"><FaFacebook /></span>
+              <span className="text-5xl md:text-7xl"><RiTwitterXLine /></span>
+              <span className="text-5xl md:text-7xl"><PiTiktokLogoThin /></span>
             </div>
         </div>
 
