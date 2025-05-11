@@ -1,6 +1,10 @@
 import { useState, useEffect } from "react";
 import Card from "./Card";
 import { motion } from "motion/react";
+import coffeeCup from '/assets/coffee.jpg'
+import coffeebeans from '/assets/coffee_beans.jpg'
+import cozy from '/assets/cozy.jpg'
+
 
 const Features = () => {
   const [images, setImages] = useState([]);
@@ -8,19 +12,19 @@ const Features = () => {
   useEffect(() => {
     setImages([
       {
-        src: "/assets/coffee.jpg",
+        src: coffeeCup,
         alt: "coffee cup",
         desc: "Step into our cozy coffee haven, where every sip feels like a warm hug. Plush corners, soft lighting, and the aroma of freshly brewed coffee await you.",
         delay: 0.75
       },
       {
-        src: "/assets/coffee_beans.jpg",
+        src: coffeebeans,
         alt: "coffee beans",
         desc: "Indulge in the rich flavors of our carefully selected, high-quality coffee beans. Freshly roasted to perfection, every bean tells a story of passion and dedication to the art of coffee-making.",
         delay: 1
       },
       {
-        src: "/assets/cozy.jpg",
+        src: cozy,
         alt: "cozy coffee shop",
         desc: "Cozy up in our inviting coffee shop, where warm lighting and rich aromas envelop you in comfort. Savor every sip of our expertly crafted coffee, made with love and the finest beans.",
         delay: 1.5

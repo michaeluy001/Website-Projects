@@ -2,6 +2,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { IoSearchOutline } from "react-icons/io5";
 import { useState } from "react";
 import Drawer from "./Drawer";
+import logo from '/assets/kapehan_logo.png'
 
 const Header = () => {
   const [isOpened, setIsOpened] = useState(false);
@@ -24,7 +25,7 @@ const Header = () => {
           </span>
           <span className="justify-items-center m-auto text-center">
             <img
-              src="/assets/kapehan_logo.png"
+              src={logo}
               alt="kapehan logo"
               className="size-full md:size-1/2"
             >
